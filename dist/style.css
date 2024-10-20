@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e6f6;
+    color: #4b0082;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #800080;
+    font-size: 2em;
+}
+
+/* Tracker Styles */
+.tracker {
+    margin-bottom: 20px;
+}
+
+.tracker-input {
+    margin-bottom: 10px;
+}
+
+.tracker-input input {
+    padding: 8px;
+    margin: 5px;
+    border: 2px solid #d8bfd8;
+    border-radius: 5px;
+}
+
+#addWorkout {
+    background-color: #8a2be2;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#addWorkout:hover {
+    background-color: #4b0082;
+}
+
+#workoutList {
+    list-style: none;
+    padding: 0;
+}
+
+/* Random Exercise Generator Styles */
+.random-exercise {
+    margin-bottom: 20px;
+}
+
+#generateExercise {
+    background-color: #9370db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#generateExercise:hover {
+    background-color: #8a2be2;
+}
+
+#exerciseDisplay {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #4b0082;
+}
+
+/* Quotes Styles */
+.quotes {
+    margin-bottom: 20px;
+}
+
+#newQuote {
+    background-color: #dda0dd;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#newQuote:hover {
+    background-color: #ba55d3;
+}
+
+#quoteDisplay {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #800080;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #800080;
+}
